@@ -8,27 +8,25 @@ function Slides({imagesProp}){
             if(photo < 0){
                 return imagesProp.length - 1
             }
-        return photo
+        return photo;
         }))
     
     }
     const nextBtn = () => {
         setPhoto(( photo => {
-            photo ++
+            photo ++;
             if(photo > imagesProp.length - 1){
-                photo = 0
+                photo = 0;
             }
-            return photo
+            return photo;
         }))
     }
     return(
         <div>
             <div className="btnContainer">
-                <img src={imagesProp[photo]} width="150px" alt="plant"/>
-            </div>
-            <div className="btnContainer">
-                    <button onClick={prevBtn}>PREV</button>
-                    <button onClick={nextBtn}>NEXT</button>
+                <button onClick={prevBtn} className="btnSlider">&lt; </button>
+                <img src={imagesProp[photo]} width="250px" alt="plant"/>
+                <button onClick={nextBtn} className="btnSlider">&gt;</button>
             </div>
         </div>
     )
