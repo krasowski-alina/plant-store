@@ -1,6 +1,9 @@
+import './App.css';
 function About(){
     return(
-        <div>About</div>
+        <div>
+       
+        </div>
     )
 }
 export default About;

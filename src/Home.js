@@ -20,7 +20,7 @@ function Home(){
     return(
     <div>
     <h1>Our Plant Collection</h1>
-       <FilterBtns filterPlants={filterPlants}/>
+       <FilterBtns filterPlants={filterPlants} data={data} setPlants={setPlants}/>
         <div className="container">
             {plants.map((plant => {
                 const {id, itemName, price, description, images, showMore, test} = plant;
