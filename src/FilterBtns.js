@@ -1,5 +1,3 @@
-// import { data } from "./data";
-
 
 function FilterBtns({filterPlants, data, setPlants}){
 
@@ -11,7 +9,6 @@ function FilterBtns({filterPlants, data, setPlants}){
             <button className="filterBtn" onClick={()=> filterPlants("agave")}>Agaves</button>
             <button className="filterBtn" onClick={()=> filterPlants("lithops")}>Lithops</button>
             <button className="filterBtn" onClick={()=> setPlants(data)}>All</button>
-
         </div>
     )
 }

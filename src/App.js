@@ -17,7 +17,7 @@ function App() {
     <div className="navIcon"><img src={icon} className="icon" alt="icon"/></div>
     <div className="links">
     <Link to="/" className="link">HOME</Link>
-    <Link to="/about" className="link">CARE GUIDE</Link>
+    <Link to="/about" className="link">ABOUT</Link>
     <Link to="/faq" className="link">FAQ</Link>
      </div>
   </nav>

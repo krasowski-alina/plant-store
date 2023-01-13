@@ -1,3 +1,4 @@
+
 nav {
   padding: 10px;
   background-color: rgba(166,191,133, 0.9);
@@ -20,11 +21,15 @@ nav {
 .navIcon {
   flex: 1
 }
+.home--backround {
+  background: url("https://img.freepik.com/free-vector/blank-cactus-frame-design-vector_53876-136468.jpg?w=2000&t=st=1673634558~exp=1673635158~hmac=8d5ffc20e37f92002516652ab2db57288a2cc6f076dbad8b2416fca1e3ef468c");
+}
 .container {
   width: 800px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  background-color: #fff;
 }
 .product-card {
   width: 350px;
@@ -59,7 +64,8 @@ h1 {
   font-family: 'Lobster', cursive;
   letter-spacing: 2px;
   text-align: center;
-  margin: 8px;
+  margin: 0px;
+  padding: 10px;
 }
 h2 {
   text-shadow: 0.5px 0.5px 0.5px black;
@@ -88,7 +94,6 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   color: #6b5495;
-  
 }
 .filterBtn {
   background: linear-gradient(131deg, rgba(234,213,218,1) 1%, rgba(254,161,191,0.9892550770308123) 100%);
@@ -104,12 +109,68 @@ h2 {
   font-weight: bolder;
   font-size: 18px;
 }
+.filterBtn:hover {
+  background: #fff;
+  border: 2px solid #FEA1BF;
+  color: #FEA1BF;
+}
 ins {
   display: inline-block;
   transform: rotate(-20deg);
   color: #436a45;
   padding: 10px;
 }
+/* ABOUT */
+.about--container {
+  position: relative;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.3);
+
+}
 .myVideo {
   width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  z-index: -2;
+
+}
+.authorImg {
+  width: 260px;
+  padding: 5px;
+  border-radius: 9px;
+}
+article {
+  display: flex;
+  align-items: center;
+}
+.article {
+  height: 50vh;
+  background-color: rgba(166,191,133, 0.9);
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.article-element {
+  padding: 6px;
+}
+.phrase {
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
+  font-size: 28px;
+  text-align: center;
+  color: #6b5495;
+  text-shadow: 0.4px 0.5px 0.4px black;
+}
+.list li {
+  list-style: none;
+  background: url(icon.ico) left/25px no-repeat;
+  padding: 0px 0px 0px 40px;
+  margin: 0px 0px 15px 0px;
+  
+}
+.about-text, li {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }

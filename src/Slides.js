@@ -25,7 +25,7 @@ function Slides({imagesProp}){
         <div>
             <div className="btnContainer">
                 <button onClick={prevBtn} className="btnSlider">&lt; </button>
-                <img src={imagesProp[photo]} width="250px" alt="plant"/>
+                <img src={imagesProp[photo]} width="260px" alt="plant"/>
                 <button onClick={nextBtn} className="btnSlider">&gt;</button>
             </div>
         </div>

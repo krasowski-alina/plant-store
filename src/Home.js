@@ -18,8 +18,8 @@ function Home(){
     setPlants(newPlants)
     }
     return(
-    <div>
-    <h1>Our Plant Collection</h1>
+    <div className="home--backround">
+    <h1>Find your favorite plant</h1>
        <FilterBtns filterPlants={filterPlants} data={data} setPlants={setPlants}/>
         <div className="container">
             {plants.map((plant => {
