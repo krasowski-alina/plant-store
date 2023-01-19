@@ -24,11 +24,15 @@ nav {
 .home--backround {
   background: url("https://img.freepik.com/free-vector/blank-cactus-frame-design-vector_53876-136468.jpg?w=2000&t=st=1673634558~exp=1673635158~hmac=8d5ffc20e37f92002516652ab2db57288a2cc6f076dbad8b2416fca1e3ef468c");
 }
+article {
+  background-color: #fff;
+}
 .container {
   width: 800px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+
 }
 .product-card {
   width: 350px;

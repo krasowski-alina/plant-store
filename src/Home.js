@@ -21,7 +21,7 @@ function Home(){
     <div className="home--backround">
     <h1>Find your favorite plant</h1>
        <FilterBtns filterPlants={filterPlants} data={data} setPlants={setPlants}/>
-        <div className="container">
+        <article className="container">
             {plants.map((plant => {
                 const {id, itemName, price, description, images, showMore, test} = plant;
                 return(
@@ -35,7 +35,7 @@ function Home(){
                     </div>
                 )
             }))}
-        </div>
+        </article>
     </div>
     )
 }
