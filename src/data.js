@@ -8,7 +8,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/echeveria-atlantis_1080x.png?v=1497818306",
         "https://worldofsucculents.com/wp-content/uploads/2018/07/Echeveria-Atlantis3.jpg",],
         showMore: false,
-        test: true
 
     },
     {
@@ -20,7 +19,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/echeveria-dusty-rose_1080x.png?v=1498709814",
         "https://64.media.tumblr.com/04285b92848e601ca0a47156fc722fa7/tumblr_ntrldtkH2a1ud5wyoo1_1280.jpg",],
         showMore: false,
-        test: false
 
     },
     {
@@ -32,7 +30,6 @@ export const data = [
         images: ["http://cdn.shopify.com/s/files/1/1124/9666/products/echeveria-white-lady.jpg?v=1582819449",
         "https://www.picturethisai.com/wiki-image/1080/153709883064057856.jpeg",],
         showMore: false,
-        test: true
 
     },
 
@@ -45,7 +42,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/pilosocereus-azureus-blue-candle-cactus_1080x.png?v=1516416172",
         "https://cdn.shopify.com/s/files/1/0409/6897/8594/products/il_fullxfull.2900833590_9qbv_570x.jpg?v=1616954373",],
         showMore: false,
-        test: false
 
     },
     {
@@ -57,7 +53,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/Stenocactus-multicostatus-wave-cactus-side_0e6b30ea-ef58-47bb-81e2-a9820c3a8f53_1080x.jpg?v=1555080648",
         "http://www.llifle.com/photos/pht_6191_l.jpg",],
         showMore: false,
-        test: true
 
     },
     {
@@ -69,7 +64,6 @@ export const data = [
         images: ["https://m.media-amazon.com/images/I/81bY2L6HkBL.jpg",
         "https://cdn.shopify.com/s/files/1/1124/9666/products/mammillaria-plumosa-feather-cactus-side_1080x.jpg?v=1532746666",],
         showMore: false,
-        test: true
 
     },
     {
@@ -81,7 +75,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/Agave_KisshoKan_1080x.jpg?v=1666752206",
         "http://cdn.shopify.com/s/files/1/1527/8799/products/Agave-Kissho-Kan.i-7376.s-60118.r-1_f7c9e091-2fc8-4fd7-b365-28bfdf042bcc.jpg?v=1653318443",],
         showMore: false,
-        test: true
 
     },
     {
@@ -93,7 +86,6 @@ export const data = [
         images: ["https://images.squarespace-cdn.com/content/v1/590e84c6ff7c502e782892f8/1547161787867-TS559B0007KR8R5XG7WS/Agave+Quadricolour-top.jpg?format=500w"
         ,"https://www.nativeson.com/sites/default/files/product_images/agavesnowglow16.jpg"],
         showMore: false,
-        test: true
 
     },
     {
@@ -106,7 +98,6 @@ export const data = [
             ,"https://www.anniesannuals.com/signs/a/images/agave_blue_glow_03.jpg",
         "http://cdn.shopify.com/s/files/1/0258/1525/3038/products/1_abbed32d-865a-4059-8000-f20e31778d6b_1200x1200.png?v=1662535664",],
         showMore: false,
-        test: true
 
     },
     {
@@ -118,7 +109,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/aloe-minnie-belle_1800x1800.jpg?v=1600790363",
         "https://cdn.shopify.com/s/files/1/2203/9263/products/484db3bcd0d217b6d251f4112f95a063.jpg?v=1577220413",],
         showMore: false,
-        test: true
 
     },
     {
@@ -130,7 +120,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/aloe-ferox-cape_-aloe_1080x.jpg?v=1547488635",
         "https://m.media-amazon.com/images/I/81FNgvu+UgL.jpg",],
         showMore: false,
-        test: true
 
     },
     {
@@ -142,7 +131,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/aloe-castilloniae_1800x1800.jpg?v=1587916110",
         "http://www.llifle.com/photos/pht_29760_l.jpg",],
         showMore: false,
-        test: true
 
     },
     {
@@ -154,7 +142,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/lithopsjuliifulleri_1080x.jpg?v=1620829009",
         "https://upload.wikimedia.org/wikipedia/commons/5/50/Lithops_julii_001_GotBot_2015.jpg",],
         showMore: false,
-        test: true
 
     },
     {
@@ -166,7 +153,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/lithops-fulviceps-aurea_1080x.jpg?v=1508455689",
         "https://i.ebayimg.com/images/g/adcAAOSwuOJeBXJA/s-l500.jpg",],
         showMore: false,
-        test: false
 
     },
     {
@@ -178,7 +164,6 @@ export const data = [
         images: ["https://cdn.shopify.com/s/files/1/1124/9666/products/lithops-salicola-malachite_1080x.jpg?v=1508455657",
         "https://cdn.shopify.com/s/files/1/0326/8221/3515/products/lithmal1_683998d6-58c3-4604-9d2d-e6a1a5f13f94_300x300.jpg?v=1633718163",],
         showMore: false,
-        test: true
 
     },
 ]

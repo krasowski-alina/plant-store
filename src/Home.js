@@ -23,12 +23,12 @@ function Home(){
        <FilterBtns filterPlants={filterPlants} data={data} setPlants={setPlants}/>
         <article className="container">
             {plants.map((plant => {
-                const {id, itemName, price, description, images, showMore, test} = plant;
+                const {id, itemName, price, description, images, showMore} = plant;
                 return(
                     <div key={id} className="product-card">
                         <h2>{itemName}</h2>
                         <Slides imagesProp={images}/>
-                        <div className="test">{test? price : <div className="test"><del>{price}</del><ins> $4.99</ins></div> }</div>
+                        <div className="test">{price}</div>
                         <p className="description">{showMore? description : description.substring(0, 110)}
                         <button className="btnShowMore" onClick={()=> changeDescription(plant)}>{showMore? "...Show Less" : "...Show More"}</button>
                         </p>
